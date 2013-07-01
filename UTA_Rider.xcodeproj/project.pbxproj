@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A009B15E1771FE4000BB690E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A009B15D1771FE4000BB690E /* QuartzCore.framework */; };
+		A00A3DE9176C0B5000354EBA /* RoutesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DE8176C0B5000354EBA /* RoutesTableViewController.m */; };
+		A00A3DEC176C0F8900354EBA /* RoutesTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DEB176C0F8900354EBA /* RoutesTableCell.m */; };
+		A00A3DEF176C1C3B00354EBA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DEE176C1C3B00354EBA /* MapViewController.m */; };
+		A00A3DF1176C1C4A00354EBA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A3DF0176C1C4A00354EBA /* MapKit.framework */; };
+		A00A3DFE176C1FEC00354EBA /* frontrunner_north.png in Resources */ = {isa = PBXBuildFile; fileRef = A00A3DF9176C1FEC00354EBA /* frontrunner_north.png */; };
+		A00A3DFF176C1FEC00354EBA /* frontrunner_south.png in Resources */ = {isa = PBXBuildFile; fileRef = A00A3DFA176C1FEC00354EBA /* frontrunner_south.png */; };
+		A00A3E00176C1FEC00354EBA /* train_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A00A3DFB176C1FEC00354EBA /* train_blue.png */; };
+		A00A3E01176C1FEC00354EBA /* train_green.png in Resources */ = {isa = PBXBuildFile; fileRef = A00A3DFC176C1FEC00354EBA /* train_green.png */; };
+		A00A3E02176C1FEC00354EBA /* train_red.png in Resources */ = {isa = PBXBuildFile; fileRef = A00A3DFD176C1FEC00354EBA /* train_red.png */; };
+		A00A3E03176C262C00354EBA /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DF5176C1F9300354EBA /* Annotation.m */; };
+		A00A3E04176C263100354EBA /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DF7176C1F9300354EBA /* AnnotationView.m */; };
+		A00A3E05176C298D00354EBA /* UTA_API_VEHICLE.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A3DF3176C1E7B00354EBA /* UTA_API_VEHICLE.m */; };
+		A0151DCE17821733006C4D9D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0151DCD17821733006C4D9D /* icon.png */; };
+		A0151DD017821734006C4D9D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0151DCF17821734006C4D9D /* icon@2x.png */; };
+		A0378BA7177159A100CCD439 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0378BA6177159A100CCD439 /* CoreLocation.framework */; };
+		A05EB6C917711512000BF331 /* train_station.png in Resources */ = {isa = PBXBuildFile; fileRef = A05EB6C817711512000BF331 /* train_station.png */; };
+		A063608617740503008BBC7A /* map-pin-area-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A063608417740503008BBC7A /* map-pin-area-white.png */; };
+		A063608717740503008BBC7A /* map-pin-area-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A063608517740503008BBC7A /* map-pin-area-white@2x.png */; };
+		A063608A177405FC008BBC7A /* text-list-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A0636088177405FC008BBC7A /* text-list-white.png */; };
+		A063608B177405FC008BBC7A /* text-list-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0636089177405FC008BBC7A /* text-list-white@2x.png */; };
+		A063608E17740638008BBC7A /* gear-multiple-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A063608C17740638008BBC7A /* gear-multiple-white.png */; };
+		A063608F17740638008BBC7A /* gear-multiple-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A063608D17740638008BBC7A /* gear-multiple-white@2x.png */; };
+		A09F3D63177E1F3A00CCBE58 /* TrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F3D62177E1F3A00CCBE58 /* TrainStation.m */; };
+		A0A2617D1715145E0087B09E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A2617C1715145E0087B09E /* UIKit.framework */; };
+		A0A2617F1715145E0087B09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A2617E1715145E0087B09E /* Foundation.framework */; };
+		A0A261811715145E0087B09E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A261801715145E0087B09E /* CoreGraphics.framework */; };
+		A0A261871715145E0087B09E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0A261851715145E0087B09E /* InfoPlist.strings */; };
+		A0A261891715145E0087B09E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A261881715145E0087B09E /* main.m */; };
+		A0A2618D1715145E0087B09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A2618C1715145E0087B09E /* AppDelegate.m */; };
+		A0A2618F1715145E0087B09E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A2618E1715145E0087B09E /* Default.png */; };
+		A0A261911715145E0087B09E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A261901715145E0087B09E /* Default@2x.png */; };
+		A0A261931715145E0087B09E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A261921715145E0087B09E /* Default-568h@2x.png */; };
+		A0A261961715145E0087B09E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A261941715145E0087B09E /* MainStoryboard.storyboard */; };
+		A0A261991715145E0087B09E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A261981715145E0087B09E /* ViewController.m */; };
+		A0A261A0171518240087B09E /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A0A2619F171518240087B09E /* Readme.rtf */; };
+		A0D35D501772951F008E0FB7 /* StopSample.xml in Resources */ = {isa = PBXBuildFile; fileRef = A0D35D4F1772951F008E0FB7 /* StopSample.xml */; };
+		A0D3DF4F17700D14002CCA52 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D3DF4E17700D14002CCA52 /* SettingsTableViewController.m */; };
+		A0D3DF5317701476002CCA52 /* UTA_API_STOPS.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D3DF5217701476002CCA52 /* UTA_API_STOPS.m */; };
+		A0E93EE917793F5A00C7187F /* trainStations.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0E93EE817793F5A00C7187F /* trainStations.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A009B15D1771FE4000BB690E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A00A3DE7176C0B5000354EBA /* RoutesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesTableViewController.h; sourceTree = "<group>"; };
+		A00A3DE8176C0B5000354EBA /* RoutesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesTableViewController.m; sourceTree = "<group>"; };
+		A00A3DEA176C0F8900354EBA /* RoutesTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesTableCell.h; sourceTree = "<group>"; };
+		A00A3DEB176C0F8900354EBA /* RoutesTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesTableCell.m; sourceTree = "<group>"; };
+		A00A3DED176C1C3B00354EBA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A00A3DEE176C1C3B00354EBA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A00A3DF0176C1C4A00354EBA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A00A3DF2176C1E7B00354EBA /* UTA_API_VEHICLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTA_API_VEHICLE.h; sourceTree = "<group>"; };
+		A00A3DF3176C1E7B00354EBA /* UTA_API_VEHICLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTA_API_VEHICLE.m; sourceTree = "<group>"; };
+		A00A3DF4176C1F9300354EBA /* Annotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		A00A3DF5176C1F9300354EBA /* Annotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		A00A3DF6176C1F9300354EBA /* AnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
+		A00A3DF7176C1F9300354EBA /* AnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
+		A00A3DF9176C1FEC00354EBA /* frontrunner_north.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontrunner_north.png; sourceTree = "<group>"; };
+		A00A3DFA176C1FEC00354EBA /* frontrunner_south.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontrunner_south.png; sourceTree = "<group>"; };
+		A00A3DFB176C1FEC00354EBA /* train_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train_blue.png; sourceTree = "<group>"; };
+		A00A3DFC176C1FEC00354EBA /* train_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train_green.png; sourceTree = "<group>"; };
+		A00A3DFD176C1FEC00354EBA /* train_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train_red.png; sourceTree = "<group>"; };
+		A0151DCD17821733006C4D9D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		A0151DCF17821734006C4D9D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		A0378BA6177159A100CCD439 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A05EB6C817711512000BF331 /* train_station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train_station.png; sourceTree = "<group>"; };
+		A063608417740503008BBC7A /* map-pin-area-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pin-area-white.png"; sourceTree = "<group>"; };
+		A063608517740503008BBC7A /* map-pin-area-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-pin-area-white@2x.png"; sourceTree = "<group>"; };
+		A0636088177405FC008BBC7A /* text-list-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list-white.png"; sourceTree = "<group>"; };
+		A0636089177405FC008BBC7A /* text-list-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list-white@2x.png"; sourceTree = "<group>"; };
+		A063608C17740638008BBC7A /* gear-multiple-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-multiple-white.png"; sourceTree = "<group>"; };
+		A063608D17740638008BBC7A /* gear-multiple-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-multiple-white@2x.png"; sourceTree = "<group>"; };
+		A09F3D61177E1F3A00CCBE58 /* TrainStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainStation.h; sourceTree = "<group>"; };
+		A09F3D62177E1F3A00CCBE58 /* TrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStation.m; sourceTree = "<group>"; };
+		A0A261791715145E0087B09E /* UTA_Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTA_Rider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A2617C1715145E0087B09E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0A2617E1715145E0087B09E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0A261801715145E0087B09E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0A261841715145E0087B09E /* UTA_Rider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UTA_Rider-Info.plist"; sourceTree = "<group>"; };
+		A0A261861715145E0087B09E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0A261881715145E0087B09E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0A2618A1715145E0087B09E /* UTA_Rider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UTA_Rider-Prefix.pch"; sourceTree = "<group>"; };
+		A0A2618B1715145E0087B09E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0A2618C1715145E0087B09E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0A2618E1715145E0087B09E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0A261901715145E0087B09E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0A261921715145E0087B09E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A0A261951715145E0087B09E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A0A261971715145E0087B09E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0A261981715145E0087B09E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0A2619F171518240087B09E /* Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		A0D35D4F1772951F008E0FB7 /* StopSample.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = StopSample.xml; sourceTree = "<group>"; };
+		A0D3DF4D17700D14002CCA52 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		A0D3DF4E17700D14002CCA52 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		A0D3DF5117701476002CCA52 /* UTA_API_STOPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTA_API_STOPS.h; sourceTree = "<group>"; };
+		A0D3DF5217701476002CCA52 /* UTA_API_STOPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTA_API_STOPS.m; sourceTree = "<group>"; };
+		A0E93EE817793F5A00C7187F /* trainStations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trainStations.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A261761715145E0087B09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A009B15E1771FE4000BB690E /* QuartzCore.framework in Frameworks */,
+				A0378BA7177159A100CCD439 /* CoreLocation.framework in Frameworks */,
+				A00A3DF1176C1C4A00354EBA /* MapKit.framework in Frameworks */,
+				A0A2617D1715145E0087B09E /* UIKit.framework in Frameworks */,
+				A0A2617F1715145E0087B09E /* Foundation.framework in Frameworks */,
+				A0A261811715145E0087B09E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00A3DF8176C1FE000354EBA /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A0151DCF17821734006C4D9D /* icon@2x.png */,
+				A0151DCD17821733006C4D9D /* icon.png */,
+				A0636088177405FC008BBC7A /* text-list-white.png */,
+				A0636089177405FC008BBC7A /* text-list-white@2x.png */,
+				A063608417740503008BBC7A /* map-pin-area-white.png */,
+				A063608517740503008BBC7A /* map-pin-area-white@2x.png */,
+				A063608C17740638008BBC7A /* gear-multiple-white.png */,
+				A063608D17740638008BBC7A /* gear-multiple-white@2x.png */,
+				A05EB6C817711512000BF331 /* train_station.png */,
+				A00A3DF9176C1FEC00354EBA /* frontrunner_north.png */,
+				A00A3DFA176C1FEC00354EBA /* frontrunner_south.png */,
+				A00A3DFB176C1FEC00354EBA /* train_blue.png */,
+				A00A3DFC176C1FEC00354EBA /* train_green.png */,
+				A00A3DFD176C1FEC00354EBA /* train_red.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		A0A261701715145E0087B09E = {
+			isa = PBXGroup;
+			children = (
+				A0A261821715145E0087B09E /* UTA_Rider */,
+				A0A2617B1715145E0087B09E /* Frameworks */,
+				A0A2617A1715145E0087B09E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A2617A1715145E0087B09E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A261791715145E0087B09E /* UTA_Rider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A2617B1715145E0087B09E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A009B15D1771FE4000BB690E /* QuartzCore.framework */,
+				A0378BA6177159A100CCD439 /* CoreLocation.framework */,
+				A00A3DF0176C1C4A00354EBA /* MapKit.framework */,
+				A0A2617C1715145E0087B09E /* UIKit.framework */,
+				A0A2617E1715145E0087B09E /* Foundation.framework */,
+				A0A261801715145E0087B09E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A261821715145E0087B09E /* UTA_Rider */ = {
+			isa = PBXGroup;
+			children = (
+				A0A261831715145E0087B09E /* Supporting Files */,
+				A00A3DF4176C1F9300354EBA /* Annotation.h */,
+				A00A3DF5176C1F9300354EBA /* Annotation.m */,
+				A00A3DF6176C1F9300354EBA /* AnnotationView.h */,
+				A00A3DF7176C1F9300354EBA /* AnnotationView.m */,
+				A09F3D61177E1F3A00CCBE58 /* TrainStation.h */,
+				A09F3D62177E1F3A00CCBE58 /* TrainStation.m */,
+				A0A2618B1715145E0087B09E /* AppDelegate.h */,
+				A0A2618C1715145E0087B09E /* AppDelegate.m */,
+				A0A261941715145E0087B09E /* MainStoryboard.storyboard */,
+				A00A3DE7176C0B5000354EBA /* RoutesTableViewController.h */,
+				A00A3DE8176C0B5000354EBA /* RoutesTableViewController.m */,
+				A00A3DEA176C0F8900354EBA /* RoutesTableCell.h */,
+				A00A3DEB176C0F8900354EBA /* RoutesTableCell.m */,
+				A00A3DED176C1C3B00354EBA /* MapViewController.h */,
+				A00A3DEE176C1C3B00354EBA /* MapViewController.m */,
+				A0D3DF4D17700D14002CCA52 /* SettingsTableViewController.h */,
+				A0D3DF4E17700D14002CCA52 /* SettingsTableViewController.m */,
+			);
+			path = UTA_Rider;
+			sourceTree = "<group>";
+		};
+		A0A261831715145E0087B09E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D3DF5017701405002CCA52 /* UTA APIs */,
+				A0A2619F171518240087B09E /* Readme.rtf */,
+				A0A261971715145E0087B09E /* ViewController.h */,
+				A0A261981715145E0087B09E /* ViewController.m */,
+				A00A3DF8176C1FE000354EBA /* Graphics */,
+				A0A261841715145E0087B09E /* UTA_Rider-Info.plist */,
+				A0A261851715145E0087B09E /* InfoPlist.strings */,
+				A0A261881715145E0087B09E /* main.m */,
+				A0A2618A1715145E0087B09E /* UTA_Rider-Prefix.pch */,
+				A0A2618E1715145E0087B09E /* Default.png */,
+				A0A261901715145E0087B09E /* Default@2x.png */,
+				A0A261921715145E0087B09E /* Default-568h@2x.png */,
+				A0D35D4F1772951F008E0FB7 /* StopSample.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D3DF5017701405002CCA52 /* UTA APIs */ = {
+			isa = PBXGroup;
+			children = (
+				A00A3DF2176C1E7B00354EBA /* UTA_API_VEHICLE.h */,
+				A00A3DF3176C1E7B00354EBA /* UTA_API_VEHICLE.m */,
+				A0D3DF5117701476002CCA52 /* UTA_API_STOPS.h */,
+				A0D3DF5217701476002CCA52 /* UTA_API_STOPS.m */,
+				A0E93EE817793F5A00C7187F /* trainStations.txt */,
+			);
+			name = "UTA APIs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A261781715145E0087B09E /* UTA_Rider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A2619C1715145E0087B09E /* Build configuration list for PBXNativeTarget "UTA_Rider" */;
+			buildPhases = (
+				A0A261751715145E0087B09E /* Sources */,
+				A0A261761715145E0087B09E /* Frameworks */,
+				A0A261771715145E0087B09E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTA_Rider;
+			productName = UTA_Rider;
+			productReference = A0A261791715145E0087B09E /* UTA_Rider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A261711715145E0087B09E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eduardo Flores";
+			};
+			buildConfigurationList = A0A261741715145E0087B09E /* Build configuration list for PBXProject "UTA_Rider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0A261701715145E0087B09E;
+			productRefGroup = A0A2617A1715145E0087B09E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A261781715145E0087B09E /* UTA_Rider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A261771715145E0087B09E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A261871715145E0087B09E /* InfoPlist.strings in Resources */,
+				A0A2618F1715145E0087B09E /* Default.png in Resources */,
+				A0A261911715145E0087B09E /* Default@2x.png in Resources */,
+				A0A261931715145E0087B09E /* Default-568h@2x.png in Resources */,
+				A0A261961715145E0087B09E /* MainStoryboard.storyboard in Resources */,
+				A0A261A0171518240087B09E /* Readme.rtf in Resources */,
+				A00A3DFE176C1FEC00354EBA /* frontrunner_north.png in Resources */,
+				A00A3DFF176C1FEC00354EBA /* frontrunner_south.png in Resources */,
+				A00A3E00176C1FEC00354EBA /* train_blue.png in Resources */,
+				A00A3E01176C1FEC00354EBA /* train_green.png in Resources */,
+				A00A3E02176C1FEC00354EBA /* train_red.png in Resources */,
+				A05EB6C917711512000BF331 /* train_station.png in Resources */,
+				A0D35D501772951F008E0FB7 /* StopSample.xml in Resources */,
+				A063608617740503008BBC7A /* map-pin-area-white.png in Resources */,
+				A063608717740503008BBC7A /* map-pin-area-white@2x.png in Resources */,
+				A063608A177405FC008BBC7A /* text-list-white.png in Resources */,
+				A063608B177405FC008BBC7A /* text-list-white@2x.png in Resources */,
+				A063608E17740638008BBC7A /* gear-multiple-white.png in Resources */,
+				A063608F17740638008BBC7A /* gear-multiple-white@2x.png in Resources */,
+				A0E93EE917793F5A00C7187F /* trainStations.txt in Resources */,
+				A0151DCE17821733006C4D9D /* icon.png in Resources */,
+				A0151DD017821734006C4D9D /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A261751715145E0087B09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A3E05176C298D00354EBA /* UTA_API_VEHICLE.m in Sources */,
+				A00A3E04176C263100354EBA /* AnnotationView.m in Sources */,
+				A00A3E03176C262C00354EBA /* Annotation.m in Sources */,
+				A0A261891715145E0087B09E /* main.m in Sources */,
+				A0A2618D1715145E0087B09E /* AppDelegate.m in Sources */,
+				A0A261991715145E0087B09E /* ViewController.m in Sources */,
+				A00A3DE9176C0B5000354EBA /* RoutesTableViewController.m in Sources */,
+				A00A3DEC176C0F8900354EBA /* RoutesTableCell.m in Sources */,
+				A00A3DEF176C1C3B00354EBA /* MapViewController.m in Sources */,
+				A0D3DF4F17700D14002CCA52 /* SettingsTableViewController.m in Sources */,
+				A0D3DF5317701476002CCA52 /* UTA_API_STOPS.m in Sources */,
+				A09F3D63177E1F3A00CCBE58 /* TrainStation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0A261851715145E0087B09E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A261861715145E0087B09E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0A261941715145E0087B09E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A261951715145E0087B09E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A2619A1715145E0087B09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0A2619B1715145E0087B09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A2619D1715145E0087B09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTA_Rider/UTA_Rider-Prefix.pch";
+				INFOPLIST_FILE = "UTA_Rider/UTA_Rider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0A2619E1715145E0087B09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UTA_Rider/UTA_Rider-Prefix.pch";
+				INFOPLIST_FILE = "UTA_Rider/UTA_Rider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A261741715145E0087B09E /* Build configuration list for PBXProject "UTA_Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A2619A1715145E0087B09E /* Debug */,
+				A0A2619B1715145E0087B09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A2619C1715145E0087B09E /* Build configuration list for PBXNativeTarget "UTA_Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A2619D1715145E0087B09E /* Debug */,
+				A0A2619E1715145E0087B09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A261711715145E0087B09E /* Project object */;
+}

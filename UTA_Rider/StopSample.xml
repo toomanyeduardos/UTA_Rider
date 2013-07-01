@@ -1,0 +1,270 @@
+sample for     [stops getStopMonitorForStopId:@"TX153041"];
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" version="1.3">
+    <ResponseTimestamp>2013-06-19T19:43:49.2779324-06:00</ResponseTimestamp>
+    <StopMonitoringDelivery version="1.3">
+        <ResponseTimestamp>2013-06-19T19:43:49.2779324-06:00</ResponseTimestamp>
+        <ValidUntil>2013-06-19T19:43:59.2779324-06:00</ValidUntil>
+        <MonitoredStopVisit>
+            <RecordedAtTime>2013-06-19T19:43:49.2779324-06:00</RecordedAtTime>
+            <MonitoredVehicleJourney>
+                <LineRef>701</LineRef>
+                <DirectionRef />
+                <FramedVehicleJourneyRef>
+                    <DataFrameRef>2013-06-19T00:00:00-06:00</DataFrameRef>
+                    <DatedVehicleJourneyRef />
+                </FramedVehicleJourneyRef>
+                <PublishedLineName>BLUE LINE</PublishedLineName>
+                <OriginRef>0</OriginRef>
+                <DestinationRef>0</DestinationRef>
+                <Monitored>True</Monitored>
+                <VehicleLocation>
+                    <Longitude>-111.885665</Longitude>
+                    <Latitude>40.58973</Latitude>
+                </VehicleLocation>
+                <ProgressRate>1</ProgressRate>
+                <CourseOfJourneyRef>17801</CourseOfJourneyRef>
+                <VehicleRef>1012</VehicleRef>
+                <MonitoredCall>
+                    <StopPointRef>TX128001</StopPointRef>
+                    <VisitNumber>1</VisitNumber>
+                    <VehicleAtStop>false</VehicleAtStop>
+                    <Extensions>
+                        <EstimatedDepartureTime>459</EstimatedDepartureTime>
+                        <Direction>To Salt Lake Central</Direction>
+                        <Distance>16481.068375318828</Distance>
+                    </Extensions>
+                </MonitoredCall>
+                <OnwardCalls>
+                    <OnwardCall>
+                        <StopPointRef>18387</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>3300 S @ 210 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18389</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>3900 S @ 188 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18391</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>FIRECLAY AVE @ 71 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18393</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>COTTONWOOD ST @ 5144 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18395</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>WINCHESTER ST @ 222 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18397</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>180 W @ 7250 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18399</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>CENTER ST @ 95 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18401</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>9000 S @ 165 E</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18405</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>SOUTH TEMPLE @ 350 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18407</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>SOUTH TEMPLE @ 155 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18409</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>MAIN ST @ 450 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18411</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>1300 S @ 180 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18413</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>2100 S @ 221 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18415</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>MAIN ST @ 255 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>20982</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>200 W @ 825 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>21763</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>200 S @ 554 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>21800</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>150 S @ 400 W</StopPointName>
+                    </OnwardCall>
+                </OnwardCalls>
+                <Extensions>
+                    <LastGPSFix>2013-06-19T19:43:42.213</LastGPSFix>
+                    <Scheduled>False</Scheduled>
+                    <Bearing>4.6</Bearing>
+                    <Speed>0</Speed>
+                    <DestinationName />
+                </Extensions>
+            </MonitoredVehicleJourney>
+            <MonitoredVehicleJourney>
+                <LineRef>703</LineRef>
+                <DirectionRef>TO MEDICAL</DirectionRef>
+                <FramedVehicleJourneyRef>
+                    <DataFrameRef>2013-06-19T00:00:00-06:00</DataFrameRef>
+                    <DatedVehicleJourneyRef>1514306</DatedVehicleJourneyRef>
+                </FramedVehicleJourneyRef>
+                <PublishedLineName>RED LINE</PublishedLineName>
+                <OriginRef>TX101715</OriginRef>
+                <DestinationRef>TX127252</DestinationRef>
+                <Monitored>True</Monitored>
+                <VehicleLocation>
+                    <Longitude>-111.9642</Longitude>
+                    <Latitude>40.596877</Latitude>
+                </VehicleLocation>
+                <ProgressRate>1</ProgressRate>
+                <CourseOfJourneyRef>10039</CourseOfJourneyRef>
+                <VehicleRef>1118</VehicleRef>
+                <MonitoredCall>
+                    <StopPointRef>TX126076</StopPointRef>
+                    <VisitNumber>1</VisitNumber>
+                    <VehicleAtStop>false</VehicleAtStop>
+                    <Extensions>
+                        <EstimatedDepartureTime>676</EstimatedDepartureTime>
+                        <Direction>To University Medical</Direction>
+                        <Distance>22707.952809519778</Distance>
+                    </Extensions>
+                </MonitoredCall>
+                <OnwardCalls>
+                    <OnwardCall>
+                        <StopPointRef>18380</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>400 S @ 625 E</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18382</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>400 S @ 875 E</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18383</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>500 S @ 1349 E</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18387</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>3300 S @ 210 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18389</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>3900 S @ 188 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18391</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>FIRECLAY AVE @ 71 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18393</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>COTTONWOOD ST @ 5144 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18395</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>WINCHESTER ST @ 222 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18409</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>MAIN ST @ 450 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18411</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>1300 S @ 180 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>18413</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>2100 S @ 221 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>19166</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>SOUTH CAMPUS DR @ 1800 E</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>19168</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>MARIO CAPECCHI DR @ 250 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>20982</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>200 W @ 825 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>22629</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>SUGAR FACTORY RD @ 2700 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>22631</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>REDWOOD RD @ 8021 S</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>22633</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>7800 S @ 1127 W</StopPointName>
+                    </OnwardCall>
+                    <OnwardCall>
+                        <StopPointRef>22635</StopPointRef>
+                        <VisitNumber>1</VisitNumber>
+                        <StopPointName>BINGHAM JUNCTION BLVD @ 7387 S</StopPointName>
+                    </OnwardCall>
+                </OnwardCalls>
+                <Extensions>
+                    <LastGPSFix>2013-06-19T19:43:43.81</LastGPSFix>
+                    <Scheduled>False</Scheduled>
+                    <Bearing>69.3</Bearing>
+                    <Speed>46.46</Speed>
+                    <DestinationName>University Medical</DestinationName>
+                </Extensions>
+            </MonitoredVehicleJourney>
+        </MonitoredStopVisit>
+        <Extensions>
+            <StopName>WINCHESTER ST @ 222 W</StopName>
+            <StopLongitude>-111.898319000</StopLongitude>
+            <StopLatitude>40.633823000</StopLatitude>
+            <StopLocation>Utah</StopLocation>
+        </Extensions>
+    </StopMonitoringDelivery>
+</Siri>

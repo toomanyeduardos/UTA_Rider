@@ -1,0 +1,47 @@
+Daybreak Parkway Station,40.543417,-112.013367,400
+South Jordan Parkway Station,40.558678,-112.024713,200
+5600 W Old Binhgam Hwy Station,40.569127,-112.025061,420
+4800 W Old Bingham Hwy Station,40.580157,-112.006645,244
+Jordan Valley Station,40.595462,-111.970205,845
+2700 W Sugar Factory Rd Station,40.598839,-111.957609,204
+West Jordan City Center Station,40.603975,-111.938517,221
+Historic Gardner Station,40.608569,-111.923684,130
+Binhgam Junction Station,40.616966,-111.916024,200
+Fashion Place West Station,40.633124,-111.898099,100
+Murray Central Station,40.65913,-111.895291,750
+Murray North Station,40.675873,-111.893491,235
+Meadowbrook Station,40.686626,-111.896465,497
+Millcreek Station,40.699697,-111.89687,101
+Central Pointe Station,40.723298,-111.896774,57
+Ballpark Station,40.74095,-111.896315,170
+900 S Station,40.749089,-111.896516,0
+Court House Station,40.757715,-111.890959,0
+Library Station,40.760641,-111.884532,0
+Trolley Station,40.760706,-111.873063,0
+900 East & 400 South Station,40.760789,-111.866183,0
+Stadium Station,40.759785,-111.852048,0
+South Campus Station,40.760485,-111.839873,0
+Fort Douglas Station,40.76458,-111.836786,0
+Medical Center Station,40.769415,-111.838653,0
+West Valley Central Station,40.694277,-111.958902,80
+Decker Lake,40.70475,-111.947111,750
+Redwood Junction,40.711154,-111.939558,6-9
+River Trail,40.72025,-111.923475,100
+Gallivan Plaza,40.762311,-111.890857,0
+City Center Station,40.767794,-111.890897,0
+Temple Square Station,40.767764,-111.894373,0
+Arena Station,40.767875,-111.900446,0
+North Temple Bridge,40.771474,-111.903627,0
+Jackson/Euclid,40.771231,-111.914517,0
+Fairpark Station,40.771427,-111.921673,0
+Power Station,40.771404,-111.933973,0
+1940 W. Station,40.771569,-111.946102,0
+Airport Station,40.783564,-111.979576,0
+Sandy Civic Station,40.570627,-111.884465,1185
+Sandy Expo Station,40.581381,-111.886244,0
+Historic Sandy Station,40.589052,-111.885667,316
+Midvale Center Station,40.609904,-111.892863,142
+Midvale Fort Union Station,40.618807,-111.898252,266
+Planetarium Station,40.765177,-111.90209,0
+Old Greek Town Station,40.765031,-111.904601,0
+Salt Lake Central Station,40.760861,-111.908117,0
