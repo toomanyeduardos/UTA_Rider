@@ -46,6 +46,23 @@
 		A0D35D501772951F008E0FB7 /* StopSample.xml in Resources */ = {isa = PBXBuildFile; fileRef = A0D35D4F1772951F008E0FB7 /* StopSample.xml */; };
 		A0D3DF4F17700D14002CCA52 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D3DF4E17700D14002CCA52 /* SettingsTableViewController.m */; };
 		A0D3DF5317701476002CCA52 /* UTA_API_STOPS.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D3DF5217701476002CCA52 /* UTA_API_STOPS.m */; };
+		A0E75D1B178BB96200EE2FC2 /* cmu07a.dic in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D0B178BB96200EE2FC2 /* cmu07a.dic */; };
+		A0E75D1C178BB96200EE2FC2 /* feat.params in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D0D178BB96200EE2FC2 /* feat.params */; };
+		A0E75D1D178BB96200EE2FC2 /* mdef in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D0E178BB96200EE2FC2 /* mdef */; };
+		A0E75D1E178BB96200EE2FC2 /* means in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D0F178BB96200EE2FC2 /* means */; };
+		A0E75D1F178BB96200EE2FC2 /* noisedict in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D10178BB96200EE2FC2 /* noisedict */; };
+		A0E75D20178BB96200EE2FC2 /* sendump in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D11178BB96200EE2FC2 /* sendump */; };
+		A0E75D21178BB96200EE2FC2 /* transition_matrices in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D12178BB96200EE2FC2 /* transition_matrices */; };
+		A0E75D22178BB96200EE2FC2 /* variances in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D13178BB96200EE2FC2 /* variances */; };
+		A0E75D23178BB96200EE2FC2 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E75D14178BB96200EE2FC2 /* OpenEars.framework */; };
+		A0E75D24178BB96200EE2FC2 /* OpenEars1.dic in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D15178BB96200EE2FC2 /* OpenEars1.dic */; };
+		A0E75D25178BB96200EE2FC2 /* OpenEars1.gram in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D16178BB96200EE2FC2 /* OpenEars1.gram */; };
+		A0E75D26178BB96200EE2FC2 /* OpenEars1.languagemodel in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D17178BB96200EE2FC2 /* OpenEars1.languagemodel */; };
+		A0E75D27178BB96200EE2FC2 /* OpenEars2.gram in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D18178BB96200EE2FC2 /* OpenEars2.gram */; };
+		A0E75D28178BB96200EE2FC2 /* OpenEarsCorpus.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0E75D19178BB96200EE2FC2 /* OpenEarsCorpus.txt */; };
+		A0E75D29178BB96200EE2FC2 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E75D1A178BB96200EE2FC2 /* Slt.framework */; };
+		A0E75D2B178BB96B00EE2FC2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E75D2A178BB96B00EE2FC2 /* AudioToolbox.framework */; };
+		A0E75D2D178BB97000EE2FC2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E75D2C178BB97000EE2FC2 /* AVFoundation.framework */; };
 		A0E93EE917793F5A00C7187F /* trainStations.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0E93EE817793F5A00C7187F /* trainStations.txt */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +120,23 @@
 		A0D3DF4E17700D14002CCA52 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		A0D3DF5117701476002CCA52 /* UTA_API_STOPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTA_API_STOPS.h; sourceTree = "<group>"; };
 		A0D3DF5217701476002CCA52 /* UTA_API_STOPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTA_API_STOPS.m; sourceTree = "<group>"; };
+		A0E75D0B178BB96200EE2FC2 /* cmu07a.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmu07a.dic; sourceTree = "<group>"; };
+		A0E75D0D178BB96200EE2FC2 /* feat.params */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feat.params; sourceTree = "<group>"; };
+		A0E75D0E178BB96200EE2FC2 /* mdef */ = {isa = PBXFileReference; lastKnownFileType = file; path = mdef; sourceTree = "<group>"; };
+		A0E75D0F178BB96200EE2FC2 /* means */ = {isa = PBXFileReference; lastKnownFileType = file; path = means; sourceTree = "<group>"; };
+		A0E75D10178BB96200EE2FC2 /* noisedict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noisedict; sourceTree = "<group>"; };
+		A0E75D11178BB96200EE2FC2 /* sendump */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendump; sourceTree = "<group>"; };
+		A0E75D12178BB96200EE2FC2 /* transition_matrices */ = {isa = PBXFileReference; lastKnownFileType = file; path = transition_matrices; sourceTree = "<group>"; };
+		A0E75D13178BB96200EE2FC2 /* variances */ = {isa = PBXFileReference; lastKnownFileType = file; path = variances; sourceTree = "<group>"; };
+		A0E75D14178BB96200EE2FC2 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		A0E75D15178BB96200EE2FC2 /* OpenEars1.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.dic; sourceTree = "<group>"; };
+		A0E75D16178BB96200EE2FC2 /* OpenEars1.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.gram; sourceTree = "<group>"; };
+		A0E75D17178BB96200EE2FC2 /* OpenEars1.languagemodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.languagemodel; sourceTree = "<group>"; };
+		A0E75D18178BB96200EE2FC2 /* OpenEars2.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars2.gram; sourceTree = "<group>"; };
+		A0E75D19178BB96200EE2FC2 /* OpenEarsCorpus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEarsCorpus.txt; sourceTree = "<group>"; };
+		A0E75D1A178BB96200EE2FC2 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		A0E75D2A178BB96B00EE2FC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A0E75D2C178BB97000EE2FC2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A0E93EE817793F5A00C7187F /* trainStations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trainStations.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,12 +145,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E75D2D178BB97000EE2FC2 /* AVFoundation.framework in Frameworks */,
+				A0E75D2B178BB96B00EE2FC2 /* AudioToolbox.framework in Frameworks */,
 				A009B15E1771FE4000BB690E /* QuartzCore.framework in Frameworks */,
 				A0378BA7177159A100CCD439 /* CoreLocation.framework in Frameworks */,
 				A00A3DF1176C1C4A00354EBA /* MapKit.framework in Frameworks */,
 				A0A2617D1715145E0087B09E /* UIKit.framework in Frameworks */,
 				A0A2617F1715145E0087B09E /* Foundation.framework in Frameworks */,
 				A0A261811715145E0087B09E /* CoreGraphics.framework in Frameworks */,
+				A0E75D23178BB96200EE2FC2 /* OpenEars.framework in Frameworks */,
+				A0E75D29178BB96200EE2FC2 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +185,9 @@
 		A0A261701715145E0087B09E = {
 			isa = PBXGroup;
 			children = (
+				A0E75D2C178BB97000EE2FC2 /* AVFoundation.framework */,
+				A0E75D2A178BB96B00EE2FC2 /* AudioToolbox.framework */,
+				A0E75D0A178BB96200EE2FC2 /* Framework */,
 				A0A261821715145E0087B09E /* UTA_Rider */,
 				A0A2617B1715145E0087B09E /* Frameworks */,
 				A0A2617A1715145E0087B09E /* Products */,
@@ -231,6 +272,36 @@
 			name = "UTA APIs";
 			sourceTree = "<group>";
 		};
+		A0E75D0A178BB96200EE2FC2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A0E75D0B178BB96200EE2FC2 /* cmu07a.dic */,
+				A0E75D0C178BB96200EE2FC2 /* hub4wsj_sc_8k */,
+				A0E75D14178BB96200EE2FC2 /* OpenEars.framework */,
+				A0E75D15178BB96200EE2FC2 /* OpenEars1.dic */,
+				A0E75D16178BB96200EE2FC2 /* OpenEars1.gram */,
+				A0E75D17178BB96200EE2FC2 /* OpenEars1.languagemodel */,
+				A0E75D18178BB96200EE2FC2 /* OpenEars2.gram */,
+				A0E75D19178BB96200EE2FC2 /* OpenEarsCorpus.txt */,
+				A0E75D1A178BB96200EE2FC2 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A0E75D0C178BB96200EE2FC2 /* hub4wsj_sc_8k */ = {
+			isa = PBXGroup;
+			children = (
+				A0E75D0D178BB96200EE2FC2 /* feat.params */,
+				A0E75D0E178BB96200EE2FC2 /* mdef */,
+				A0E75D0F178BB96200EE2FC2 /* means */,
+				A0E75D10178BB96200EE2FC2 /* noisedict */,
+				A0E75D11178BB96200EE2FC2 /* sendump */,
+				A0E75D12178BB96200EE2FC2 /* transition_matrices */,
+				A0E75D13178BB96200EE2FC2 /* variances */,
+			);
+			path = hub4wsj_sc_8k;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,6 +375,19 @@
 				A0E93EE917793F5A00C7187F /* trainStations.txt in Resources */,
 				A0151DCE17821733006C4D9D /* icon.png in Resources */,
 				A0151DD017821734006C4D9D /* icon@2x.png in Resources */,
+				A0E75D1B178BB96200EE2FC2 /* cmu07a.dic in Resources */,
+				A0E75D1C178BB96200EE2FC2 /* feat.params in Resources */,
+				A0E75D1D178BB96200EE2FC2 /* mdef in Resources */,
+				A0E75D1E178BB96200EE2FC2 /* means in Resources */,
+				A0E75D1F178BB96200EE2FC2 /* noisedict in Resources */,
+				A0E75D20178BB96200EE2FC2 /* sendump in Resources */,
+				A0E75D21178BB96200EE2FC2 /* transition_matrices in Resources */,
+				A0E75D22178BB96200EE2FC2 /* variances in Resources */,
+				A0E75D24178BB96200EE2FC2 /* OpenEars1.dic in Resources */,
+				A0E75D25178BB96200EE2FC2 /* OpenEars1.gram in Resources */,
+				A0E75D26178BB96200EE2FC2 /* OpenEars1.languagemodel in Resources */,
+				A0E75D27178BB96200EE2FC2 /* OpenEars2.gram in Resources */,
+				A0E75D28178BB96200EE2FC2 /* OpenEarsCorpus.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +494,10 @@
 		A0A2619D1715145E0087B09E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UTA_Rider/UTA_Rider-Prefix.pch";
 				INFOPLIST_FILE = "UTA_Rider/UTA_Rider-Info.plist";
@@ -422,6 +510,10 @@
 		A0A2619E1715145E0087B09E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UTA_Rider/UTA_Rider-Prefix.pch";
 				INFOPLIST_FILE = "UTA_Rider/UTA_Rider-Info.plist";

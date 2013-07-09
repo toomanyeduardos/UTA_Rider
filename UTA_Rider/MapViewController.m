@@ -23,7 +23,7 @@
 @end
 
 @implementation MapViewController
-@synthesize mapView, locationManager;
+@synthesize mapView, locationManager, fliteController, slt;
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -86,6 +86,24 @@
     
 }
 
+- (FliteController *) fliteController
+{
+    if (fliteController == nil)
+    {
+        fliteController = [[FliteController alloc]init];
+    }
+    return fliteController;
+}
+
+- (Slt *) slt
+{
+    if (slt == nil)
+    {
+        slt = [[Slt alloc]init];
+    }
+    return  slt;
+}
+
 - (IBAction)buttonFindClosest:(id)sender
 {
     TrainStation *shortestDistance= [self getDistance];
@@ -104,7 +122,8 @@
                                          otherButtonTitles:nil];
     
     [alert show];
-    
+    [self.fliteController say:message withVoice:self.slt];
+
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation

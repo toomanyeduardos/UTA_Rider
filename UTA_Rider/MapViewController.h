@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import <OpenEars/FliteController.h>
+#import <Slt/Slt.h>
 #import <CoreLocation/CoreLocation.h>
 #import "TrainStation.h"
 
@@ -43,6 +45,9 @@
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, strong) FliteController *fliteController;
+@property (nonatomic, strong) Slt *slt;
+
 - (IBAction)buttonFindClosest:(id)sender;
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation;
